@@ -1,11 +1,15 @@
 package task;
 
-public abstract class Bulldozer extends Machine {
+public class Bulldozer extends Machine {
 
     @Override
-    public abstract void doWork();
+    public void doWork() {
+        System.out.println("Bulldozer is working");
+    }
 
     @Override
-    public abstract void stopWork();
+    public void stopWork() {
+        System.out.println("Bulldozer is not working");
+    }
 
 }
